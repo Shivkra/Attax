@@ -18,7 +18,7 @@ Everything was stored on the polygon blockchain, IPFS and deployed on Replit.
 ### Front-end
 
 - For this you can use either Replit or do in your local-host. I prefer Replit because it is easy for application deployment.
-1. Now seperate our second folder Attax(it is your frontend) inside the forked Attax repository, upload it into your replit {or} fork this repil "https://replit.com/@sivasankarkk/Attax#src/utils/MyEpicGame.json".
+1. Now seperate our second folder Attax(it is your frontend) inside the forked Attax repository, upload it into your replit  {or}  fork this repil "https://replit.com/@sivasankarkk/Attax#src/utils/MyEpicGame.json".
 2. Now you need to carefully do only two things:
    a. Get the deployed contract address that you saved earlier and paste it at `CONTRACT_ADDRESS` in "src/constants.jsx".
    b. Open our previous section smart-contract folder, go to "artifacts/contracts/MyEpicGame.sol/MyEpicGame.json" & copy the entire "MyEpicGame.json".
