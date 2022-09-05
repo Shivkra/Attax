@@ -12,7 +12,7 @@ Everything was stored on the polygon blockchain, IPFS and deployed on Replit.
 3. Do 'npm install dotenv --save' and create ".env" file at the root level of smart-contract.
 4. Change `API_URL`(create an account in Alchemy, generate an api key there, then copy and paste the https link) and `PRIVATE_KEY`(get it from your web3 wallet like metamask) in the "hardhat.config.js".
 5. Make sure solidity version is same in all files, otherwise you will get error.
-6. Do 'npx hardhat compile', after that do 'npx hardhat run scripts/deploy.js --network polygon_mumbai'. After successful deployment you will get 'Contract deployed to: 0x13D5939cbE332A8173d54405d091FF687714F367' on the console.
+6. Do 'npx hardhat compile', after that do 'npx hardhat run scripts/deploy.js --network polygon_mumbai'. After successful deployment you will get a message like 'Contract deployed to: 0x13D5939cbE332A8173d54405d091FF687714F367' on the console.
 7. Now copy and save the deployed contract address safely. Also don't close the code editor, we will use it in our frontend part.
 
 ### Front-end
@@ -24,4 +24,4 @@ Everything was stored on the polygon blockchain, IPFS and deployed on Replit.
    b. Open our previous section smart-contract folder, go to "artifacts/contracts/MyEpicGame.sol/MyEpicGame.json" & copy the entire "MyEpicGame.json".
    Now open replit, go to "src/utils/MyEpicGame.json", delete the entire data inside it and paste what you have copied from your smart-contract.
    
-### Whoo that's it, now your app is ready.
+### Whoo that's it, now your app is ready. Show it to the world with your deployed Replit link.
