@@ -1,10 +1,4 @@
-# Attax
-
-There are very few games that are very intresting on the web3.
-So, to change that team Shivkra came with Attax.
-Everything was stored on the polygon blockchain, IPFS and deployed on Replit.
-
-## How to use:
+### How to use:
 ### Smart Contract
 
 1. First fork the Attax repository, then seperate smart-contract folder and open in your code editor (VS Code).
